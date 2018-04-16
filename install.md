@@ -4,7 +4,7 @@
 
 ### 创建账户,并设置权限（所有ceph节点）
 
-    sudo useradd ceph-node -m -b /bin/bash
+    sudo useradd ceph-node -m -s /bin/bash
     echo "ceph-node ALL = (root) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ceph-node
     sudo chmod 0440 /etc/sudoers.d/ceph-node
 
