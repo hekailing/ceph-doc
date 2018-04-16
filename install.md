@@ -184,7 +184,7 @@ mycluster目录下生成几个文件，如ceph.conf;ceph.mon.keyring等
     
 3.检查rbd镜像的细节
    
-   sudo rbd --image rbd1 info --name client.rbd
+    sudo rbd --image rbd1 info --name client.rbd
    
 ### 映射块设备并初始化
 
