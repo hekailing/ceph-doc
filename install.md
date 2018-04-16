@@ -20,15 +20,15 @@
 
 2. 编辑.ssh/config文件，如下：
 
-> Host node-0
->  Hostname node-0
->  User ceph-node
-> Host node-1
->  Hostname node-1
->  User ceph-node
-> Host node-2
->  Hostname node-2
->  User ceph-node
+       Host node-0
+         Hostname node-0
+         User ceph-node  
+       Host node-1
+         Hostname node-1
+         User ceph-node  
+       Host node-2
+         Hostname node-2
+         User ceph-node
 
 #### 拷贝密钥
 
